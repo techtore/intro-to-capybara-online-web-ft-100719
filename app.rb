@@ -3,4 +3,8 @@ class Application < Sinatra::Base
   get '/' do
     erb :index
   end
+  
+  POST '/greet' do 
+    erb :greet
+  end
 end
